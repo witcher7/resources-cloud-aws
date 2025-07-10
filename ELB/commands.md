@@ -1,7 +1,9 @@
 **IF YOU ARE USING UBUNTU** 
 ---
 sudo -i
+---
 apt-get update
+---
 apt install nginx -y
 > now go to html folder
 > cd /var/www/html
@@ -12,8 +14,11 @@ apt install nginx -y
 **IF YOU ARE USING AMAZON LINUX**
 ---
 sudo -i
+---
 yum update 
+---
 yum install httpd
+---
 service httpd start
 > now go to html folder
 > cd /var/www/html
