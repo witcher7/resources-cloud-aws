@@ -1,4 +1,5 @@
 **IF YOU ARE USING UBUNTU** 
+---
 sudo -i
 apt-get update
 apt install nginx -y
@@ -9,6 +10,7 @@ apt install nginx -y
 ** there copy and paste the below code**
 
 **IF YOU ARE USING AMAZON LINUX**
+---
 sudo -i
 yum update 
 yum install httpd
